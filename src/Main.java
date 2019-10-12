@@ -76,7 +76,7 @@ public class Main {
 			    						State st=listaStates.get(i);
 			    						// Si el state es igual a el contador de sets, se va a ir guardando el tipo que se le va asignando
 			    						if(st.getState()=="q"+contSets) {
-			    							System.out.println("Hola");
+			    							st.setType("Initial");
 			    							contSets++;
 			    						}
 			    						
